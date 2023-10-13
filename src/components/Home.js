@@ -98,6 +98,7 @@ function Home() {
                     >
                         Sign Out
                     </Button>
+                    <br /><br />
                     <h1 className="mb-4">Welcome, {location.state.id}!</h1>
                     <h2>Your Todo List:</h2>
                     <ListGroup>

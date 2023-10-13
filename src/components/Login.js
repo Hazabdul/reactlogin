@@ -28,15 +28,15 @@ function Login() {
           }
         } catch (error) {
           if (error.response) {
-            // Server responded with an error (4xx or 5xx)
+         
             console.error(error.response.data);
             alert("Server error");
           } else if (error.request) {
-            // Request made but no response received
+           
             console.error(error.request);
             alert("No response from the server");
           } else {
-            // Something else went wrong
+           
             console.error(error);
             alert("An error occurred");
           }
